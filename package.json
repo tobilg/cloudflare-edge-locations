@@ -22,7 +22,8 @@
   },
   "files": [
     "dist/*.js",
-    "dist/*.d.ts"
+    "dist/*.d.ts",
+    "dist/data/cloudflare-edge-locations.json"
   ],
   "keywords": [
     "cloudflare",

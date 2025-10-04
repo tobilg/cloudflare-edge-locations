@@ -3,9 +3,9 @@ name: Update CloudFlare Edge Locations data
 on:
   workflow_dispatch:
 
-  push:
-    branches:
-      - 'main'
+  #push:
+  #  branches:
+  #    - 'main'
 
   #schedule:
     # Run every hour in the 30th minute

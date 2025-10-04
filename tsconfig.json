@@ -25,7 +25,10 @@
     /* Type Checking */
     "strict": true,                                      /* Enable all strict type-checking options. */
   },
-  "exclude": ["node_modules", "dist", "umd"],
+  "exclude": ["node_modules", "dist"],
+  "include": [
+    "dist/data/cloudflare-edge-locations.json"
+  ],
   "files": [
     "package.json"
   ]
