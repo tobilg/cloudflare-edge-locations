@@ -60,10 +60,8 @@ typings/
 # next.js build output
 .next
 
-# data
-data/
-
 .DS_Store
 
 umd/
 temp/
+dist/
