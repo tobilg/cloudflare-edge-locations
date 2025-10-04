@@ -150,7 +150,8 @@ const run = async (): Promise<void> => {
       '--lang=en-US',
       '--accept-lang=en-US,en',
       '--disable-web-security',
-      '--disable-features=TranslateUI'
+      '--disable-features=TranslateUI',
+      '--no-sandbox'
     ]
   });
   const page = await browser.newPage();
