@@ -20,7 +20,10 @@ $ npm i cloudflare-edge-locations
 ### Node
 
 ```javascript
-const CloudFlareEdgeLocations = require('cloudflare-edge-locations');
+const CloudFlareEdgeLocations = require('cloudflare-edge-locations').default;
+// Or
+// import CloudFlareEdgeLocations from 'cloudflare-edge-locations';
+
 const el = new CloudFlareEdgeLocations();
 const location = el.lookup('IAD');
 
@@ -43,22 +46,15 @@ const locationCount = el.getLocationCount(); // returns 285
 const locations = el.getLocations();
 ```
 
-### Browser
+### TypeScript
 
-This package is published as an UMD module, and can be used in the browser directly from [unpkg](https://unpkg.com/).
+This package includes TypeScript definitions and can be used in TypeScript projects:
 
-```html
-<html>
-    <head>
-        <script src="https://unpkg.com/cloudflare-edge-locations"></script> 
-    </head>
-    <body>
-        <script>
-            // Using the global variable
-            document.write('There are ' + cloudFlareEdgeLocations.getLocationCount() + ' edge locations');
-        </script>
-    </body>
-</html>
+```typescript
+import CloudFlareEdgeLocations, { EdgeLocation } from 'cloudflare-edge-locations';
+
+const el = new CloudFlareEdgeLocations();
+const location: EdgeLocation | false = el.lookup('IAD');
 ```
 
 ## Data generation
@@ -71,7 +67,7 @@ After installation of `jq` library, run `npm run generate`
 
 To prepare the data regeneration, please run `npm run airports:download && npm run airports:filter && npm run countries:download`. This step requires an installation of [jq](https://github.com/stedolan/jq/wiki/Installation) on the machine where the commands are run.
 
-The `generate.js` script will regenerate the `csv` and `json` versions of the CloudFlare Edge Location list in the `dist` folder.
+The `generate.ts` script will regenerate the `csv` and `json` versions of the CloudFlare Edge Location list in the `dist` folder.
 
 It does this by extracting the information from the [CloudFlare Network Map page](https://www.cloudflare.com/network-map/), cleaning and unifiying it, and merging it with [airport data](https://datahub.io/core/airport-codes/r/airport-codes.json) (the first three characters of the `location` field are IATA airport codes) to also get the latitude/longitude information.
 

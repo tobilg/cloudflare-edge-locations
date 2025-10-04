@@ -1,17 +1,19 @@
 {
   "name": "cloudflare-edge-locations",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "List of cloudflare.com edge locations",
-  "main": "umd/cloudflare-edge-locations.min.js",
-  "module": "src/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "scripts": {
-    "test": "mocha",
-    "countries:download": "mkdir -p data && curl -L --silent https://datahub.io/core/country-list/r/data.json --output data/country-codes.json",
-    "airports:download": "mkdir -p data && curl -L --silent https://datahub.io/core/airport-codes/r/airport-codes.json --output data/airport-codes.json",
-    "airports:filter": "cat data/airport-codes.json  | jq -c '[ .[] | select( .type | contains(\"large_airport\")) ]' > data/large-airports.json",
-    "generate": "node generate.js",
+    "test": "mocha --require ts-node/register test/tests.ts",
+    "install-duckdb": "./scripts/install-duckdb.sh",
+    "download": "rm -rf temp/ && mkdir -p temp && duckdb < scripts/load-airports.sql",
+    "generate": "mkdir -p data && ts-node --transpile-only generate.ts",
+    "bundle": "rm -rf dist/ src/data/ && mkdir -p src/data && cp data/*.json src/data && tsc --build src/",
     "build": "npm run airports:download && npm run airports:filter && npm run countries:download && npm run generate && npm run bundle",
-    "bundle": "node_modules/.bin/webpack-cli",
     "prepack": "npm run bundle"
   },
   "repository": {
@@ -19,7 +21,8 @@
     "url": "git+https://github.com/tobilg/cloudflare-edge-locations.git"
   },
   "files": [
-    "umd/*.js"
+    "dist/*.js",
+    "dist/*.d.ts"
   ],
   "keywords": [
     "cloudflare",
@@ -39,11 +42,16 @@
   },
   "homepage": "https://github.com/tobilg/cloudflare-edge-locations#readme",
   "devDependencies": {
-    "chai": "^4.3.7",
-    "mocha": "^10.2.0",
-    "puppeteer": "^19.6.3",
-    "utf8": "^3.0.0",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.7.0",
+    "@types/utf8": "^3.0.3",
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "puppeteer": "^23.5.2",
+    "ts-node": "^10.9.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "utf8": "^3.0.0"
   }
 }
