@@ -1,13 +1,6 @@
 # cloudflare-edge-locations
 Approximation of cloudflare.com edge locations, usable via a lookup mechanism.
 
-## Contents
-
-If you're here for the plain data, have a look at
-
-* [List of CloudFlare Edge Locations (as CSV)](#csv-list) 
-* [List of CloudFlare Edge Locations (as JSON)](#json-lookup)
-
 ## Installation
 To install, you can do the following:
 
