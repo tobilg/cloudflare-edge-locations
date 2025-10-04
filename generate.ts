@@ -42,7 +42,7 @@ interface EdgeLocation {
 }
 
 const writeCSV = (locations: EdgeLocation[]): void => {
-  const csvPath = join(__dirname, 'dist', 'cloudflare-edge-locations.csv');
+  const csvPath = join(__dirname, 'data', 'cloudflare-edge-locations.csv');
   const data = locations.map(e => {
     return `${getCode(e.code)},${e.city},${e.country},${e.countryCode},${e.latitude},${e.longitude}`;
   });
@@ -66,7 +66,7 @@ const getCode = (airportCode?: string): string => {
 }
 
 const writeJSON = (locations: EdgeLocation[]): void => {
-  const jsonPath = join(__dirname, 'dist', 'cloudflare-edge-locations.json');
+  const jsonPath = join(__dirname, 'data', 'cloudflare-edge-locations.json');
   const data: { [key: string]: EdgeLocation } = {};
   locations.forEach(location => {
     data[getCode(location.code)] = {
@@ -93,18 +93,35 @@ const lookupAirport = (city: string, originalName: string, dataSource: LargeCity
   const matches: LargeCityData[] = [];
   let match: LargeCityData | null = null;
   
+  // Function to normalize city names by removing common suffixes
+  const normalizeCityName = (name: string): string => {
+    return name
+      .replace(/\s+(City|Town|Village|Borough|District|County|Province|State|Region)$/i, '')
+      .replace(/\s*\([^)]*\)$/, '') // Remove parenthetical suffixes like "(Xiaogang)"
+      .trim();
+  };
+  
+  const normalizedCity = normalizeCityName(city);
+  const normalizedOriginalName = normalizeCityName(originalName);
+  
   // First, search for matches by municipality (city name)
   dataSource.forEach(entry => {
-    if (entry.municipality && entry.municipality.toLowerCase() === city.toLowerCase()) {
-      matches.push(entry);
+    if (entry.municipality) {
+      const normalizedMunicipality = normalizeCityName(entry.municipality);
+      if (normalizedMunicipality.toLowerCase() === normalizedCity.toLowerCase()) {
+        matches.push(entry);
+      }
     }
   });
   
-  // If no matches found by municipality, search by airport name using originalName
+  // If no matches found by municipality, search by airport name using normalized originalName
   if (matches.length === 0) {
     allAirportData.forEach(entry => {
-      if (entry.name && entry.name.toLowerCase().includes(originalName.toLowerCase())) {
-        matches.push(entry);
+      if (entry.name) {
+        const normalizedAirportName = normalizeCityName(entry.name);
+        if (normalizedAirportName.toLowerCase().includes(normalizedOriginalName.toLowerCase())) {
+          matches.push(entry);
+        }
       }
     });
   }
@@ -185,6 +202,9 @@ const run = async (): Promise<void> => {
       
       // Normalize accented characters first
       cleanedName = normalizeAccents(cleanedName);
+      
+      // Remove asterisks from city names
+      cleanedName = cleanedName.replace(/\*/g, '');
       
       // Apply specific city name corrections
       cleanedName = cleanedName.replace('Frankfurt', 'Frankfurt am Main');

@@ -1,6 +1,6 @@
 {
   "name": "cloudflare-edge-locations",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "List of cloudflare.com edge locations",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -12,8 +12,8 @@
     "install-duckdb": "./scripts/install-duckdb.sh",
     "download": "rm -rf temp/ && mkdir -p temp && duckdb < scripts/load-airports.sql",
     "generate": "mkdir -p data && ts-node --transpile-only generate.ts",
-    "bundle": "rm -rf dist/ src/data/ && mkdir -p src/data && cp data/*.json src/data && tsc --build src/",
-    "build": "npm run airports:download && npm run airports:filter && npm run countries:download && npm run generate && npm run bundle",
+    "bundle": "rm -rf dist/ src/data/ && mkdir -p src/data && cp data/*.json src/data && tsc --build src/ && rm -f dist/tsconfig.tsbuildinfo dist/tsconfig.json",
+    "build": "npm run download && npm run generate && npm run bundle",
     "prepack": "npm run bundle"
   },
   "repository": {
