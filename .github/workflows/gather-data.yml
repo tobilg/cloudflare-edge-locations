@@ -21,14 +21,20 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v5
         with:
-          node-version: '20.x'
+          node-version: '22.x'
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Gather data and check for changes
+      - name: Install DuckDB and download data
+        id: installDuckDB
+        run: |
+          npm run install-duckdb
+          npm run download
+
+      - name: Generate data and check for changes
         id: gatherData
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -37,7 +43,7 @@ jobs:
           npm i
 
           # Gather data
-          npm run gather-data
+          npm run generate
 
           # Setup git repo
           git config --global user.name 'TobiLG'
