@@ -3,15 +3,15 @@
     "city": "Albuquerque",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -106.609001,
-    "longitude": 35.040199
+    "latitude": 35.040199,
+    "longitude": -106.609001
   },
   "ANC": {
     "city": "Anchorage",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -149.996002,
-    "longitude": 61.1744
+    "latitude": 61.1744,
+    "longitude": -149.996002
   },
   "IAD": {
     "city": "Ashburn",
@@ -24,155 +24,155 @@
     "city": "Atlanta",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -84.428101,
-    "longitude": 33.6367
+    "latitude": 33.6367,
+    "longitude": -84.428101
   },
   "AUS": {
     "city": "Austin",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -97.662015,
-    "longitude": 30.197535
+    "latitude": 30.197535,
+    "longitude": -97.662015
   },
   "BGR": {
     "city": "Bangor",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -68.828102,
-    "longitude": 44.8074
+    "latitude": 44.8074,
+    "longitude": -68.828102
   },
   "BOS": {
     "city": "Boston",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -71.005203,
-    "longitude": 42.3643
+    "latitude": 42.3643,
+    "longitude": -71.005203
   },
   "BUF": {
     "city": "Buffalo",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -78.73220062,
-    "longitude": 42.94049835
+    "latitude": 42.94049835,
+    "longitude": -78.73220062
   },
   "YYC": {
     "city": "Calgary",
     "country": "Canada",
     "countryCode": "CA",
-    "latitude": -114.019996643,
-    "longitude": 51.113899231
+    "latitude": 51.113899231,
+    "longitude": -114.019996643
   },
   "CLT": {
     "city": "Charlotte",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -80.94309997558594,
-    "longitude": 35.2140007019043
+    "latitude": 35.2140007019043,
+    "longitude": -80.94309997558594
   },
   "MDW": {
     "city": "Chicago",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -87.752403,
-    "longitude": 41.785999
+    "latitude": 41.785999,
+    "longitude": -87.752403
   },
   "CLE": {
     "city": "Cleveland",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -81.8498001099,
-    "longitude": 41.4117012024
+    "latitude": 41.4117012024,
+    "longitude": -81.8498001099
   },
   "CMH": {
     "city": "Columbus",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -82.891899,
-    "longitude": 39.998001
+    "latitude": 39.998001,
+    "longitude": -82.891899
   },
   "DFW": {
     "city": "Dallas",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -97.038002,
-    "longitude": 32.896801
+    "latitude": 32.896801,
+    "longitude": -97.038002
   },
   "DEN": {
     "city": "Denver",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -104.672996521,
-    "longitude": 39.861698150635
+    "latitude": 39.861698150635,
+    "longitude": -104.672996521
   },
   "DTW": {
     "city": "Detroit",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -83.35340118408203,
-    "longitude": 42.212398529052734
+    "latitude": 42.212398529052734,
+    "longitude": -83.35340118408203
   },
   "RDU": {
     "city": "Durham",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -78.787498,
-    "longitude": 35.877602
+    "latitude": 35.877602,
+    "longitude": -78.787498
   },
   "YHZ": {
     "city": "Halifax",
     "country": "Canada",
     "countryCode": "CA",
-    "latitude": -63.5085983276,
-    "longitude": 44.8807983398
+    "latitude": 44.8807983398,
+    "longitude": -63.5085983276
   },
   "HNL": {
     "city": "Honolulu",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -157.924228,
-    "longitude": 21.32062
+    "latitude": 21.32062,
+    "longitude": -157.924228
   },
   "IAH": {
     "city": "Houston",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -95.34140014648438,
-    "longitude": 29.984399795532227
+    "latitude": 29.984399795532227,
+    "longitude": -95.34140014648438
   },
   "IND": {
     "city": "Indianapolis",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -86.294403,
-    "longitude": 39.7173
+    "latitude": 39.7173,
+    "longitude": -86.294403
   },
   "JAX": {
     "city": "Jacksonville",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -81.68789672851562,
-    "longitude": 30.49410057067871
+    "latitude": 30.49410057067871,
+    "longitude": -81.68789672851562
   },
   "MCI": {
     "city": "Kansas City",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -94.713898,
-    "longitude": 39.2976
+    "latitude": 39.2976,
+    "longitude": -94.713898
   },
   "LAS": {
     "city": "Las Vegas",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -115.151817,
-    "longitude": 36.083361
+    "latitude": 36.083361,
+    "longitude": -115.151817
   },
   "LAX": {
     "city": "Los Angeles",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -118.407997,
-    "longitude": 33.942501
+    "latitude": 33.942501,
+    "longitude": -118.407997
   },
   "MFE": {
     "city": "McAllen",
@@ -185,22 +185,22 @@
     "city": "Memphis",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -89.97669982910156,
-    "longitude": 35.04240036010742
+    "latitude": 35.04240036010742,
+    "longitude": -89.97669982910156
   },
   "MIA": {
     "city": "Miami",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -80.29060363769531,
-    "longitude": 25.79319953918457
+    "latitude": 25.79319953918457,
+    "longitude": -80.29060363769531
   },
   "MSP": {
     "city": "Minneapolis",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -93.221802,
-    "longitude": 44.882
+    "latitude": 44.882,
+    "longitude": -93.221802
   },
   "YUL": {
     "city": "Montreal",
@@ -213,22 +213,22 @@
     "city": "Nashville",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -86.6781997680664,
-    "longitude": 36.1245002746582
+    "latitude": 36.1245002746582,
+    "longitude": -86.6781997680664
   },
   "EWR": {
     "city": "Newark",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -74.168701,
-    "longitude": 40.692501
+    "latitude": 40.692501,
+    "longitude": -74.168701
   },
   "ORF": {
     "city": "Norfolk",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -76.201202,
-    "longitude": 36.8946
+    "latitude": 36.8946,
+    "longitude": -76.201202
   },
   "OKC": {
     "city": "Oklahoma City",
@@ -241,113 +241,113 @@
     "city": "Omaha",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -95.894096,
-    "longitude": 41.3032
+    "latitude": 41.3032,
+    "longitude": -95.894096
   },
   "YOW": {
     "city": "Ottawa",
     "country": "Canada",
     "countryCode": "CA",
-    "latitude": -75.669197,
-    "longitude": 45.322498
+    "latitude": 45.322498,
+    "longitude": -75.669197
   },
   "PHL": {
     "city": "Philadelphia",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -75.24109649658203,
-    "longitude": 39.87189865112305
+    "latitude": 39.87189865112305,
+    "longitude": -75.24109649658203
   },
   "PHX": {
     "city": "Phoenix",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -112.005905,
-    "longitude": 33.435302
+    "latitude": 33.435302,
+    "longitude": -112.005905
   },
   "PIT": {
     "city": "Pittsburgh",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -80.23290253,
-    "longitude": 40.49150085
+    "latitude": 40.49150085,
+    "longitude": -80.23290253
   },
   "PDX": {
     "city": "Portland",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -122.5979996,
-    "longitude": 45.58869934
+    "latitude": 45.58869934,
+    "longitude": -122.5979996
   },
   "RIC": {
     "city": "Richmond",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -77.3197021484375,
-    "longitude": 37.50519943237305
+    "latitude": 37.50519943237305,
+    "longitude": -77.3197021484375
   },
   "SMF": {
     "city": "Sacramento",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -121.59100341796875,
-    "longitude": 38.69540023803711
+    "latitude": 38.69540023803711,
+    "longitude": -121.59100341796875
   },
   "SLC": {
     "city": "Salt Lake City",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -111.979746,
-    "longitude": 40.785749
+    "latitude": 40.785749,
+    "longitude": -111.979746
   },
   "SAT": {
     "city": "San Antonio",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -98.469803,
-    "longitude": 29.533701
+    "latitude": 29.533701,
+    "longitude": -98.469803
   },
   "SAN": {
     "city": "San Diego",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -117.190002441,
-    "longitude": 32.7336006165
+    "latitude": 32.7336006165,
+    "longitude": -117.190002441
   },
   "SFO": {
     "city": "San Francisco",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -122.375,
-    "longitude": 37.61899948120117
+    "latitude": 37.61899948120117,
+    "longitude": -122.375
   },
   "SJC": {
     "city": "San Jose",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -121.929188,
-    "longitude": 37.362452
+    "latitude": 37.362452,
+    "longitude": -121.929188
   },
   "YXE": {
     "city": "Saskatoon",
     "country": "Canada",
     "countryCode": "CA",
-    "latitude": -106.69999694824219,
-    "longitude": 52.170799255371094
+    "latitude": 52.170799255371094,
+    "longitude": -106.69999694824219
   },
   "SEA": {
     "city": "Seattle",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -122.311134,
-    "longitude": 47.449162
+    "latitude": 47.449162,
+    "longitude": -122.311134
   },
   "FSD": {
     "city": "Sioux Falls",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -96.741152,
-    "longitude": 43.585463
+    "latitude": 43.585463,
+    "longitude": -96.741152
   },
   "STL": {
     "city": "St. Louis",
@@ -367,29 +367,29 @@
     "city": "Tampa",
     "country": "United States",
     "countryCode": "US",
-    "latitude": -82.533203125,
-    "longitude": 27.975500106811523
+    "latitude": 27.975500106811523,
+    "longitude": -82.533203125
   },
   "YYZ": {
     "city": "Toronto",
     "country": "Canada",
     "countryCode": "CA",
-    "latitude": -79.6306,
-    "longitude": 43.6772
+    "latitude": 43.6772,
+    "longitude": -79.6306
   },
   "YVR": {
     "city": "Vancouver",
     "country": "Canada",
     "countryCode": "CA",
-    "latitude": -123.183998108,
-    "longitude": 49.193901062
+    "latitude": 49.193901062,
+    "longitude": -123.183998108
   },
   "YWG": {
     "city": "Winnipeg",
     "country": "Canada",
     "countryCode": "CA",
-    "latitude": -97.2398986816,
-    "longitude": 49.909999847399995
+    "latitude": 49.909999847399995,
+    "longitude": -97.2398986816
   },
   "VCP": {
     "city": "Campinas",
@@ -423,15 +423,15 @@
     "city": "Barranquilla",
     "country": "Colombia",
     "countryCode": "CO",
-    "latitude": -74.7808,
-    "longitude": 10.8896
+    "latitude": 10.8896,
+    "longitude": -74.7808
   },
   "CNF": {
     "city": "Belo Horizonte",
     "country": "Brazil",
     "countryCode": "BR",
-    "latitude": -43.966928,
-    "longitude": -19.63571
+    "latitude": -19.63571,
+    "longitude": -43.966928
   },
   "BEL": {
     "city": "Belem",
@@ -451,8 +451,8 @@
     "city": "Bogota",
     "country": "Colombia",
     "countryCode": "CO",
-    "latitude": -74.1469,
-    "longitude": 4.70159
+    "latitude": 4.70159,
+    "longitude": -74.1469
   },
   "BSB": {
     "city": "Brasilia",
@@ -472,15 +472,15 @@
     "city": "Buenos Aires",
     "country": "Argentina",
     "countryCode": "AR",
-    "latitude": -58.5358,
-    "longitude": -34.8222
+    "latitude": -34.8222,
+    "longitude": -58.5358
   },
   "CCJ": {
     "city": "Cali",
     "country": "India",
     "countryCode": "IN",
-    "latitude": 75.955299,
-    "longitude": 11.1368
+    "latitude": 11.1368,
+    "longitude": 75.955299
   },
   "CAW": {
     "city": "Campos dos Goytacazes",
@@ -493,8 +493,8 @@
     "city": "Cacador",
     "country": "Brazil",
     "countryCode": "BR",
-    "latitude": -50.939942,
-    "longitude": -26.787423
+    "latitude": -26.787423,
+    "longitude": -50.939942
   },
   "XAP": {
     "city": "Chapeco",
@@ -570,15 +570,15 @@
     "city": "Guatemala City",
     "country": "Guatemala",
     "countryCode": "GT",
-    "latitude": -90.527496,
-    "longitude": 14.5833
+    "latitude": 14.5833,
+    "longitude": -90.527496
   },
   "GYE": {
     "city": "Guayaquil",
     "country": "Ecuador",
     "countryCode": "EC",
-    "latitude": -79.883598,
-    "longitude": -2.15742
+    "latitude": -2.15742,
+    "longitude": -79.883598
   },
   "NVT": {
     "city": "Itajai",
@@ -598,15 +598,15 @@
     "city": "Juazeiro do Norte",
     "country": "Brazil",
     "countryCode": "BR",
-    "latitude": -39.269096,
-    "longitude": -7.21932
+    "latitude": -7.21932,
+    "longitude": -39.269096
   },
   "KIN": {
     "city": "Kingston",
     "country": "Jamaica",
     "countryCode": "JM",
-    "latitude": -76.7874984741211,
-    "longitude": 17.935699462890625
+    "latitude": 17.935699462890625,
+    "longitude": -76.7874984741211
   },
   "LPB": {
     "city": "La Paz",
@@ -619,15 +619,15 @@
     "city": "Lima",
     "country": "Peru",
     "countryCode": "PE",
-    "latitude": -77.114305,
-    "longitude": -12.0219
+    "latitude": -12.0219,
+    "longitude": -77.114305
   },
   "MAO": {
     "city": "Manaus",
     "country": "Brazil",
     "countryCode": "BR",
-    "latitude": -60.049702,
-    "longitude": -3.03861
+    "latitude": -3.03861,
+    "longitude": -60.049702
   },
   "MDE": {
     "city": "Medellin",
@@ -640,8 +640,8 @@
     "city": "Mexico City",
     "country": "Mexico",
     "countryCode": "MX",
-    "latitude": -99.0145,
-    "longitude": 19.7458
+    "latitude": 19.7458,
+    "longitude": -99.0145
   },
   "NQN": {
     "city": "Neuquen",
@@ -675,8 +675,8 @@
     "city": "Port of Spain",
     "country": "Trinidad and Tobago",
     "countryCode": "TT",
-    "latitude": -61.3372,
-    "longitude": 10.5954
+    "latitude": 10.5954,
+    "longitude": -61.3372
   },
   "POA": {
     "city": "Porto Alegre",
@@ -696,15 +696,15 @@
     "city": "Quito",
     "country": "Ecuador",
     "countryCode": "EC",
-    "latitude": -78.354306,
-    "longitude": -0.125399
+    "latitude": -0.125399,
+    "longitude": -78.354306
   },
   "REC": {
     "city": "Recife",
     "country": "Brazil",
     "countryCode": "BR",
-    "latitude": -34.923316,
-    "longitude": -8.125984
+    "latitude": -8.125984,
+    "longitude": -34.923316
   },
   "RAO": {
     "city": "Ribeirao Preto",
@@ -717,29 +717,29 @@
     "city": "Rio de Janeiro",
     "country": "Brazil",
     "countryCode": "BR",
-    "latitude": -43.250557,
-    "longitude": -22.809999
+    "latitude": -22.809999,
+    "longitude": -43.250557
   },
   "SSA": {
     "city": "Salvador",
     "country": "Brazil",
     "countryCode": "BR",
-    "latitude": -38.322498,
-    "longitude": -12.908611
+    "latitude": -12.908611,
+    "longitude": -38.322498
   },
   "SJU": {
     "city": "San Juan",
     "country": "Puerto Rico",
     "countryCode": "PR",
-    "latitude": -66.0018005371,
-    "longitude": 18.4393997192
+    "latitude": 18.4393997192,
+    "longitude": -66.0018005371
   },
   "SAP": {
     "city": "San Pedro Sula",
     "country": "Honduras",
     "countryCode": "HN",
-    "latitude": -87.923599,
-    "longitude": 15.4526
+    "latitude": 15.4526,
+    "longitude": -87.923599
   },
   "STI": {
     "city": "Santiago de los Caballeros",
@@ -752,15 +752,15 @@
     "city": "Santiago",
     "country": "Chile",
     "countryCode": "CL",
-    "latitude": -70.78579711914062,
-    "longitude": -33.393001556396484
+    "latitude": -33.393001556396484,
+    "longitude": -70.78579711914062
   },
   "SDQ": {
     "city": "Santo Domingo",
     "country": "Dominican Republic",
     "countryCode": "DO",
-    "latitude": -69.668899536133,
-    "longitude": 18.42970085144
+    "latitude": 18.42970085144,
+    "longitude": -69.668899536133
   },
   "SOD": {
     "city": "Sorocaba",
@@ -801,15 +801,15 @@
     "city": "Tegucigalpa",
     "country": "Honduras",
     "countryCode": "HN",
-    "latitude": -87.217201,
-    "longitude": 14.0609
+    "latitude": 14.0609,
+    "longitude": -87.217201
   },
   "MCT": {
     "city": "Muscat",
     "country": "Oman",
     "countryCode": "OM",
-    "latitude": 58.284400939941406,
-    "longitude": 23.593299865722656
+    "latitude": 23.593299865722656,
+    "longitude": 58.284400939941406
   },
   "UDI": {
     "city": "Uberlandia",
@@ -829,78 +829,78 @@
     "city": "Vitoria",
     "country": "Spain",
     "countryCode": "ES",
-    "latitude": -2.72447,
-    "longitude": 42.882801
+    "latitude": 42.882801,
+    "longitude": -2.72447
   },
   "ABJ": {
     "city": "Abidjan",
     "country": "Côte d'Ivoire",
     "countryCode": "CI",
-    "latitude": -3.92629,
-    "longitude": 5.26139
+    "latitude": 5.26139,
+    "longitude": -3.92629
   },
   "ACC": {
     "city": "Accra",
     "country": "Ghana",
     "countryCode": "GH",
-    "latitude": -0.16678600013256073,
-    "longitude": 5.605189800262451
+    "latitude": 5.605189800262451,
+    "longitude": -0.16678600013256073
   },
   "ADD": {
     "city": "Addis Ababa",
     "country": "Ethiopia",
     "countryCode": "ET",
-    "latitude": 38.799301,
-    "longitude": 8.97789
+    "latitude": 8.97789,
+    "longitude": 38.799301
   },
   "ALG": {
     "city": "Algiers",
     "country": "Algeria",
     "countryCode": "DZ",
-    "latitude": 3.214531,
-    "longitude": 36.693886
+    "latitude": 36.693886,
+    "longitude": 3.214531
   },
   "AAE": {
     "city": "Annaba",
     "country": "Algeria",
     "countryCode": "DZ",
-    "latitude": 7.81334,
-    "longitude": 36.826781
+    "latitude": 36.826781,
+    "longitude": 7.81334
   },
   "TNR": {
     "city": "Antananarivo",
     "country": "Madagascar",
     "countryCode": "MG",
-    "latitude": 47.478802,
-    "longitude": -18.7969
+    "latitude": -18.7969,
+    "longitude": 47.478802
   },
   "CAI": {
     "city": "Cairo",
     "country": "Egypt",
     "countryCode": "EG",
-    "latitude": 31.396694,
-    "longitude": 30.111534
+    "latitude": 30.111534,
+    "longitude": 31.396694
   },
   "CPT": {
     "city": "Cape Town",
     "country": "South Africa",
     "countryCode": "ZA",
-    "latitude": 18.6016998291,
-    "longitude": -33.9648017883
+    "latitude": -33.9648017883,
+    "longitude": 18.6016998291
   },
   "DSS": {
     "city": "Dakar",
     "country": "Senegal",
     "countryCode": "SN",
-    "latitude": -17.073333,
-    "longitude": 14.67
+    "latitude": 14.67,
+    "longitude": -17.073333
   },
   "DAR": {
     "city": "Dar Es Salaam",
     "country": "Tanzania, United Republic of",
     "countryCode": "TZ",
-    "latitude": 39.202599,
-    "longitude": -6.87811
+    "latitude": -6.87811,
+    "longitude": 39.202599
   },
   "JIB": {
     "city": "Djibouti",
@@ -913,106 +913,106 @@
     "city": "Durban",
     "country": "South Africa",
     "countryCode": "ZA",
-    "latitude": 31.1197222222,
-    "longitude": -29.6144444444
+    "latitude": -29.6144444444,
+    "longitude": 31.1197222222
   },
   "GBE": {
     "city": "Gaborone",
     "country": "Botswana",
     "countryCode": "BW",
-    "latitude": 25.9182,
-    "longitude": -24.555201
+    "latitude": -24.555201,
+    "longitude": 25.9182
   },
   "HRE": {
     "city": "Harare",
     "country": "Zimbabwe",
     "countryCode": "ZW",
-    "latitude": 31.0928,
-    "longitude": -17.931801
+    "latitude": -17.931801,
+    "longitude": 31.0928
   },
   "JNB": {
     "city": "Johannesburg",
     "country": "South Africa",
     "countryCode": "ZA",
-    "latitude": 28.246,
-    "longitude": -26.1392
+    "latitude": -26.1392,
+    "longitude": 28.246
   },
   "EBB": {
     "city": "Kampala",
     "country": "Uganda",
     "countryCode": "UG",
-    "latitude": 32.443501,
-    "longitude": 0.042386
+    "latitude": 0.042386,
+    "longitude": 32.443501
   },
   "KGL": {
     "city": "Kigali",
     "country": "Rwanda",
     "countryCode": "RW",
-    "latitude": 30.1395,
-    "longitude": -1.96863
+    "latitude": -1.96863,
+    "longitude": 30.1395
   },
   "FIH": {
     "city": "Kinshasa",
     "country": "Congo, the Democratic Republic of the",
     "countryCode": "CD",
-    "latitude": 15.4446,
-    "longitude": -4.38575
+    "latitude": -4.38575,
+    "longitude": 15.4446
   },
   "LOS": {
     "city": "Lagos",
     "country": "Nigeria",
     "countryCode": "NG",
-    "latitude": 3.321160078048706,
-    "longitude": 6.5773701667785645
+    "latitude": 6.5773701667785645,
+    "longitude": 3.321160078048706
   },
   "LAD": {
     "city": "Luanda",
     "country": "Angola",
     "countryCode": "AO",
-    "latitude": 13.2312,
-    "longitude": -8.85837
+    "latitude": -8.85837,
+    "longitude": 13.2312
   },
   "LUN": {
     "city": "Lusaka",
     "country": "Zambia",
     "countryCode": "ZM",
-    "latitude": 28.452722,
-    "longitude": -15.330833
+    "latitude": -15.330833,
+    "longitude": 28.452722
   },
   "MPM": {
     "city": "Maputo",
     "country": "Mozambique",
     "countryCode": "MZ",
-    "latitude": 32.572601,
-    "longitude": -25.920799
+    "latitude": -25.920799,
+    "longitude": 32.572601
   },
   "MBA": {
     "city": "Mombasa",
     "country": "Kenya",
     "countryCode": "KE",
-    "latitude": 39.5942,
-    "longitude": -4.03483
+    "latitude": -4.03483,
+    "longitude": 39.5942
   },
   "NBO": {
     "city": "Nairobi",
     "country": "Kenya",
     "countryCode": "KE",
-    "latitude": 36.9277992249,
-    "longitude": -1.31923997402
+    "latitude": -1.31923997402,
+    "longitude": 36.9277992249
   },
   "ORN": {
     "city": "Oran",
     "country": "Algeria",
     "countryCode": "DZ",
-    "latitude": -0.621183,
-    "longitude": 35.623901
+    "latitude": 35.623901,
+    "longitude": -0.621183
   },
   "OUA": {
     "city": "Ouagadougou",
     "country": "Burkina Faso",
     "countryCode": "BF",
-    "latitude": -1.51242,
-    "longitude": 12.3532
+    "latitude": 12.3532,
+    "longitude": -1.51242
   },
   "MRU": {
     "city": "Port Louis",
@@ -1032,71 +1032,71 @@
     "city": "Tunis",
     "country": "Tunisia",
     "countryCode": "TN",
-    "latitude": 10.2272,
-    "longitude": 36.851002
+    "latitude": 36.851002,
+    "longitude": 10.2272
   },
   "WDH": {
     "city": "Windhoek",
     "country": "Namibia",
     "countryCode": "NA",
-    "latitude": 17.4709,
-    "longitude": -22.4799
+    "latitude": -22.4799,
+    "longitude": 17.4709
   },
   "ASK": {
     "city": "Yamoussoukro",
     "country": "Côte d'Ivoire",
     "countryCode": "CI",
-    "latitude": -5.36558008194,
-    "longitude": 6.9031701088
+    "latitude": 6.9031701088,
+    "longitude": -5.36558008194
   },
   "AMS": {
     "city": "Amsterdam",
     "country": "Netherlands",
     "countryCode": "NL",
-    "latitude": 4.76389,
-    "longitude": 52.308601
+    "latitude": 52.308601,
+    "longitude": 4.76389
   },
   "ATH": {
     "city": "Athens",
     "country": "Greece",
     "countryCode": "GR",
-    "latitude": 23.9445,
-    "longitude": 37.936401
+    "latitude": 37.936401,
+    "longitude": 23.9445
   },
   "BLA": {
     "city": "Barcelona",
     "country": "Venezuela, Bolivarian Republic of",
     "countryCode": "VE",
-    "latitude": -64.692222,
-    "longitude": 10.111111
+    "latitude": 10.111111,
+    "longitude": -64.692222
   },
   "BEG": {
     "city": "Belgrade",
     "country": "Serbia",
     "countryCode": "RS",
-    "latitude": 20.309099,
-    "longitude": 44.818401
+    "latitude": 44.818401,
+    "longitude": 20.309099
   },
   "BER": {
     "city": "Berlin",
     "country": "Germany",
     "countryCode": "DE",
-    "latitude": 13.500672,
-    "longitude": 52.362247
+    "latitude": 52.362247,
+    "longitude": 13.500672
   },
   "BOD": {
     "city": "Bordeaux",
     "country": "France",
     "countryCode": "FR",
-    "latitude": -0.715556,
-    "longitude": 44.8283
+    "latitude": 44.8283,
+    "longitude": -0.715556
   },
   "BTS": {
     "city": "Bratislava",
     "country": "Slovakia",
     "countryCode": "SK",
-    "latitude": 17.21269989013672,
-    "longitude": 48.17020034790039
+    "latitude": 48.17020034790039,
+    "longitude": 17.21269989013672
   },
   "BRU": {
     "city": "Brussels",
@@ -1109,15 +1109,15 @@
     "city": "Bucharest",
     "country": "Romania",
     "countryCode": "RO",
-    "latitude": 26.085,
-    "longitude": 44.571111
+    "latitude": 44.571111,
+    "longitude": 26.085
   },
   "BUD": {
     "city": "Budapest",
     "country": "Hungary",
     "countryCode": "HU",
-    "latitude": 19.261093,
-    "longitude": 47.42976
+    "latitude": 47.42976,
+    "longitude": 19.261093
   },
   "KIV": {
     "city": "Chisinau",
@@ -1130,8 +1130,8 @@
     "city": "Copenhagen",
     "country": "Denmark",
     "countryCode": "DK",
-    "latitude": 12.656000137329,
-    "longitude": 55.617900848389
+    "latitude": 55.617900848389,
+    "longitude": 12.656000137329
   },
   "ORK": {
     "city": "Cork",
@@ -1144,8 +1144,8 @@
     "city": "Dublin",
     "country": "Ireland",
     "countryCode": "IE",
-    "latitude": -6.262121,
-    "longitude": 53.428713
+    "latitude": 53.428713,
+    "longitude": -6.262121
   },
   "DUS": {
     "city": "Dusseldorf",
@@ -1158,50 +1158,50 @@
     "city": "Edinburgh",
     "country": "United Kingdom",
     "countryCode": "GB",
-    "latitude": -3.372288,
-    "longitude": 55.950145
+    "latitude": 55.950145,
+    "longitude": -3.372288
   },
   "FRA": {
     "city": "Frankfurt am Main",
     "country": "Germany",
     "countryCode": "DE",
-    "latitude": 8.561268,
-    "longitude": 50.036521
+    "latitude": 50.036521,
+    "longitude": 8.561268
   },
   "GVA": {
     "city": "Geneva",
     "country": "Switzerland",
     "countryCode": "CH",
-    "latitude": 6.108950138092041,
-    "longitude": 46.23809814453125
+    "latitude": 46.23809814453125,
+    "longitude": 6.108950138092041
   },
   "GOT": {
     "city": "Gothenburg",
     "country": "Sweden",
     "countryCode": "SE",
-    "latitude": 12.279800415039,
-    "longitude": 57.662799835205
+    "latitude": 57.662799835205,
+    "longitude": 12.279800415039
   },
   "HAM": {
     "city": "Hamburg",
     "country": "Germany",
     "countryCode": "DE",
-    "latitude": 9.98823,
-    "longitude": 53.630402
+    "latitude": 53.630402,
+    "longitude": 9.98823
   },
   "HEL": {
     "city": "Helsinki",
     "country": "Finland",
     "countryCode": "FI",
-    "latitude": 24.963301,
-    "longitude": 60.3172
+    "latitude": 60.3172,
+    "longitude": 24.963301
   },
   "SAW": {
     "city": "Istanbul",
     "country": "Turkey",
     "countryCode": "TR",
-    "latitude": 29.3092,
-    "longitude": 40.898602
+    "latitude": 40.898602,
+    "longitude": 29.3092
   },
   "ADB": {
     "city": "Izmir",
@@ -1214,8 +1214,8 @@
     "city": "Krasnoyarsk",
     "country": "Russian Federation",
     "countryCode": "RU",
-    "latitude": 92.492437,
-    "longitude": 56.173077
+    "latitude": 56.173077,
+    "longitude": 92.492437
   },
   "IEV": {
     "city": "Kyiv",
@@ -1228,78 +1228,78 @@
     "city": "Lisbon",
     "country": "Portugal",
     "countryCode": "PT",
-    "latitude": -9.13592,
-    "longitude": 38.7813
+    "latitude": 38.7813,
+    "longitude": -9.13592
   },
   "LTN": {
     "city": "London",
     "country": "United Kingdom",
     "countryCode": "GB",
-    "latitude": -0.36833301186561584,
-    "longitude": 51.874698638916016
+    "latitude": 51.874698638916016,
+    "longitude": -0.36833301186561584
   },
   "LUX": {
     "city": "Luxembourg",
     "country": "Luxembourg",
     "countryCode": "LU",
-    "latitude": 6.2044444,
-    "longitude": 49.6233333
+    "latitude": 49.6233333,
+    "longitude": 6.2044444
   },
   "LYS": {
     "city": "Lyon",
     "country": "France",
     "countryCode": "FR",
-    "latitude": 5.081111,
-    "longitude": 45.725556
+    "latitude": 45.725556,
+    "longitude": 5.081111
   },
   "MAD": {
     "city": "Madrid",
     "country": "Spain",
     "countryCode": "ES",
-    "latitude": -3.56264,
-    "longitude": 40.471926
+    "latitude": 40.471926,
+    "longitude": -3.56264
   },
   "MAN": {
     "city": "Manchester",
     "country": "United Kingdom",
     "countryCode": "GB",
-    "latitude": -2.279521,
-    "longitude": 53.349375
+    "latitude": 53.349375,
+    "longitude": -2.279521
   },
   "MRS": {
     "city": "Marseille",
     "country": "France",
     "countryCode": "FR",
-    "latitude": 5.22142410278,
-    "longitude": 43.439271922
+    "latitude": 43.439271922,
+    "longitude": 5.22142410278
   },
   "MXP": {
     "city": "Milan",
     "country": "Italy",
     "countryCode": "IT",
-    "latitude": 8.72811,
-    "longitude": 45.6306
+    "latitude": 45.6306,
+    "longitude": 8.72811
   },
   "MSQ": {
     "city": "Minsk",
     "country": "Belarus",
     "countryCode": "BY",
-    "latitude": 28.039964,
-    "longitude": 53.888071
+    "latitude": 53.888071,
+    "longitude": 28.039964
   },
   "ZIA": {
     "city": "Moscow",
     "country": "Russian Federation",
     "countryCode": "RU",
-    "latitude": 38.150002,
-    "longitude": 55.553299
+    "latitude": 55.553299,
+    "longitude": 38.150002
   },
   "MUC": {
     "city": "Munich",
     "country": "Germany",
     "countryCode": "DE",
-    "latitude": 11.7861,
-    "longitude": 48.353802
+    "latitude": 48.353802,
+    "longitude": 11.7861
   },
   "ECN": {
     "city": "Nicosia",
@@ -1312,50 +1312,50 @@
     "city": "Oslo",
     "country": "Norway",
     "countryCode": "NO",
-    "latitude": 11.1004,
-    "longitude": 60.193901
+    "latitude": 60.193901,
+    "longitude": 11.1004
   },
   "PMO": {
     "city": "Palermo",
     "country": "Italy",
     "countryCode": "IT",
-    "latitude": 13.091,
-    "longitude": 38.175999
+    "latitude": 38.175999,
+    "longitude": 13.091
   },
   "CDG": {
     "city": "Paris",
     "country": "France",
     "countryCode": "FR",
-    "latitude": 2.55,
-    "longitude": 49.012798
+    "latitude": 49.012798,
+    "longitude": 2.55
   },
   "PRG": {
     "city": "Prague",
     "country": "Czech Republic",
     "countryCode": "CZ",
-    "latitude": 14.26,
-    "longitude": 50.1008
+    "latitude": 50.1008,
+    "longitude": 14.26
   },
   "RKV": {
     "city": "Reykjavik",
     "country": "Iceland",
     "countryCode": "IS",
-    "latitude": -21.9405994415,
-    "longitude": 64.1299972534
+    "latitude": 64.1299972534,
+    "longitude": -21.9405994415
   },
   "RIX": {
     "city": "Riga",
     "country": "Latvia",
     "countryCode": "LV",
-    "latitude": 23.9711,
-    "longitude": 56.923599
+    "latitude": 56.923599,
+    "longitude": 23.9711
   },
   "FCO": {
     "city": "Rome",
     "country": "Italy",
     "countryCode": "IT",
-    "latitude": 12.251998,
-    "longitude": 41.804532
+    "latitude": 41.804532,
+    "longitude": 12.251998
   },
   "LED": {
     "city": "Saint Petersburg",
@@ -1368,113 +1368,113 @@
     "city": "Skopje",
     "country": "Macedonia, the Former Yugoslav Republic of",
     "countryCode": "MK",
-    "latitude": 21.621401,
-    "longitude": 41.961601
+    "latitude": 41.961601,
+    "longitude": 21.621401
   },
   "SOF": {
     "city": "Sofia",
     "country": "Bulgaria",
     "countryCode": "BG",
-    "latitude": 23.411436080932617,
-    "longitude": 42.696693420410156
+    "latitude": 42.696693420410156,
+    "longitude": 23.411436080932617
   },
   "ARN": {
     "city": "Stockholm",
     "country": "Sweden",
     "countryCode": "SE",
-    "latitude": 17.918600082397,
-    "longitude": 59.651901245117
+    "latitude": 59.651901245117,
+    "longitude": 17.918600082397
   },
   "STR": {
     "city": "Stuttgart",
     "country": "Germany",
     "countryCode": "DE",
-    "latitude": 9.22196006775,
-    "longitude": 48.689899444599995
+    "latitude": 48.689899444599995,
+    "longitude": 9.22196006775
   },
   "TLL": {
     "city": "Tallinn",
     "country": "Estonia",
     "countryCode": "EE",
-    "latitude": 24.832799911499997,
-    "longitude": 59.41329956049999
+    "latitude": 59.41329956049999,
+    "longitude": 24.832799911499997
   },
   "SKG": {
     "city": "Thessaloniki",
     "country": "Greece",
     "countryCode": "GR",
-    "latitude": 22.97089958190918,
-    "longitude": 40.51969909667969
+    "latitude": 40.51969909667969,
+    "longitude": 22.97089958190918
   },
   "TIA": {
     "city": "Tirana",
     "country": "Albania",
     "countryCode": "AL",
-    "latitude": 19.7206001282,
-    "longitude": 41.4146995544
+    "latitude": 41.4146995544,
+    "longitude": 19.7206001282
   },
   "VIE": {
     "city": "Vienna",
     "country": "Austria",
     "countryCode": "AT",
-    "latitude": 16.5697,
-    "longitude": 48.110298
+    "latitude": 48.110298,
+    "longitude": 16.5697
   },
   "VNO": {
     "city": "Vilnius",
     "country": "Lithuania",
     "countryCode": "LT",
-    "latitude": 25.285801,
-    "longitude": 54.634102
+    "latitude": 54.634102,
+    "longitude": 25.285801
   },
   "WAW": {
     "city": "Warsaw",
     "country": "Poland",
     "countryCode": "PL",
-    "latitude": 20.967100143399996,
-    "longitude": 52.1656990051
+    "latitude": 52.1656990051,
+    "longitude": 20.967100143399996
   },
   "ZAG": {
     "city": "Zagreb",
     "country": "Croatia",
     "countryCode": "HR",
-    "latitude": 16.0687999725,
-    "longitude": 45.7429008484
+    "latitude": 45.7429008484,
+    "longitude": 16.0687999725
   },
   "ZRH": {
     "city": "Zurich",
     "country": "Switzerland",
     "countryCode": "CH",
-    "latitude": 8.548056,
-    "longitude": 47.458056
+    "latitude": 47.458056,
+    "longitude": 8.548056
   },
   "AMM": {
     "city": "Amman",
     "country": "Jordan",
     "countryCode": "JO",
-    "latitude": 35.9931983948,
-    "longitude": 31.7226009369
+    "latitude": 31.7226009369,
+    "longitude": 35.9931983948
   },
   "BGW": {
     "city": "Baghdad",
     "country": "Iraq",
     "countryCode": "IQ",
-    "latitude": 44.2346,
-    "longitude": 33.262501
+    "latitude": 33.262501,
+    "longitude": 44.2346
   },
   "BSR": {
     "city": "Basrah",
     "country": "Iraq",
     "countryCode": "IQ",
-    "latitude": 47.662102,
-    "longitude": 30.549101
+    "latitude": 30.549101,
+    "longitude": 47.662102
   },
   "BEY": {
     "city": "Beirut",
     "country": "Lebanon",
     "countryCode": "LB",
-    "latitude": 35.488399505615234,
-    "longitude": 33.820899963378906
+    "latitude": 33.820899963378906,
+    "longitude": 35.488399505615234
   },
   "DMM": {
     "city": "Dammam",
@@ -1487,57 +1487,57 @@
     "city": "Doha",
     "country": "Qatar",
     "countryCode": "QA",
-    "latitude": 51.608056,
-    "longitude": 25.273056
+    "latitude": 25.273056,
+    "longitude": 51.608056
   },
   "DXB": {
     "city": "Dubai",
     "country": "United Arab Emirates",
     "countryCode": "AE",
-    "latitude": 55.3643989563,
-    "longitude": 25.2527999878
+    "latitude": 25.2527999878,
+    "longitude": 55.3643989563
   },
   "EBL": {
     "city": "Erbil",
     "country": "Iraq",
     "countryCode": "IQ",
-    "latitude": 43.963199615478516,
-    "longitude": 36.23759841918945
+    "latitude": 36.23759841918945,
+    "longitude": 43.963199615478516
   },
   "HFA": {
     "city": "Haifa",
     "country": "Israel",
     "countryCode": "IL",
-    "latitude": 35.04309844970703,
-    "longitude": 32.80939865112305
+    "latitude": 32.80939865112305,
+    "longitude": 35.04309844970703
   },
   "JED": {
     "city": "Jeddah",
     "country": "Saudi Arabia",
     "countryCode": "SA",
-    "latitude": 39.156502,
-    "longitude": 21.6796
+    "latitude": 21.6796,
+    "longitude": 39.156502
   },
   "KWI": {
     "city": "Kuwait City",
     "country": "Kuwait",
     "countryCode": "KW",
-    "latitude": 47.968899,
-    "longitude": 29.226601
+    "latitude": 29.226601,
+    "longitude": 47.968899
   },
   "BAH": {
     "city": "Manama",
     "country": "Bahrain",
     "countryCode": "BH",
-    "latitude": 50.63764,
-    "longitude": 26.267295
+    "latitude": 26.267295,
+    "longitude": 50.63764
   },
   "NJF": {
     "city": "Najaf",
     "country": "Iraq",
     "countryCode": "IQ",
-    "latitude": 44.404317,
-    "longitude": 31.989853
+    "latitude": 31.989853,
+    "longitude": 44.404317
   },
   "XNH": {
     "city": "Nasiriyah",
@@ -1557,43 +1557,43 @@
     "city": "Riyadh",
     "country": "Saudi Arabia",
     "countryCode": "SA",
-    "latitude": 46.69879913330078,
-    "longitude": 24.957599639892578
+    "latitude": 24.957599639892578,
+    "longitude": 46.69879913330078
   },
   "ISU": {
     "city": "Sulaymaniyah",
     "country": "Iraq",
     "countryCode": "IQ",
-    "latitude": 45.316738128699996,
-    "longitude": 35.5617485046
+    "latitude": 35.5617485046,
+    "longitude": 45.316738128699996
   },
   "TLV": {
     "city": "Tel Aviv",
     "country": "Israel",
     "countryCode": "IL",
-    "latitude": 34.88669967651367,
-    "longitude": 32.01139831542969
+    "latitude": 32.01139831542969,
+    "longitude": 34.88669967651367
   },
   "AMD": {
     "city": "Ahmedabad",
     "country": "India",
     "countryCode": "IN",
-    "latitude": 72.634697,
-    "longitude": 23.0772
+    "latitude": 23.0772,
+    "longitude": 72.634697
   },
   "AKX": {
     "city": "Aktobe",
     "country": "Kazakhstan",
     "countryCode": "KZ",
-    "latitude": 57.206699,
-    "longitude": 50.2458
+    "latitude": 50.2458,
+    "longitude": 57.206699
   },
   "ALA": {
     "city": "Almaty",
     "country": "Kazakhstan",
     "countryCode": "KZ",
-    "latitude": 77.042828,
-    "longitude": 43.354267
+    "latitude": 43.354267,
+    "longitude": 77.042828
   },
   "NQZ": {
     "city": "Astana",
@@ -1613,43 +1613,43 @@
     "city": "Baku",
     "country": "Azerbaijan",
     "countryCode": "AZ",
-    "latitude": 50.04669952392578,
-    "longitude": 40.467498779296875
+    "latitude": 40.467498779296875,
+    "longitude": 50.04669952392578
   },
   "BWN": {
     "city": "Bandar Seri Begawan",
     "country": "Brunei Darussalam",
     "countryCode": "BN",
-    "latitude": 114.928001,
-    "longitude": 4.9442
+    "latitude": 4.9442,
+    "longitude": 114.928001
   },
   "BLR": {
     "city": "Bangalore",
     "country": "India",
     "countryCode": "IN",
-    "latitude": 77.706299,
-    "longitude": 13.1979
+    "latitude": 13.1979,
+    "longitude": 77.706299
   },
   "DMK": {
     "city": "Bangkok",
     "country": "Thailand",
     "countryCode": "TH",
-    "latitude": 100.607002258,
-    "longitude": 13.9125995636
+    "latitude": 13.9125995636,
+    "longitude": 100.607002258
   },
   "BBI": {
     "city": "Bhubaneswar",
     "country": "India",
     "countryCode": "IN",
-    "latitude": 85.8178024292,
-    "longitude": 20.244400024399997
+    "latitude": 20.244400024399997,
+    "longitude": 85.8178024292
   },
   "CGY": {
     "city": "Cagayan de Oro",
     "country": "Philippines",
     "countryCode": "PH",
-    "latitude": 124.456496,
-    "longitude": 8.612203
+    "latitude": 8.612203,
+    "longitude": 124.456496
   },
   "CEB": {
     "city": "Cebu",
@@ -1662,22 +1662,22 @@
     "city": "Chandigarh",
     "country": "India",
     "countryCode": "IN",
-    "latitude": 76.788498,
-    "longitude": 30.6735
+    "latitude": 30.6735,
+    "longitude": 76.788498
   },
   "MAA": {
     "city": "Chennai",
     "country": "India",
     "countryCode": "IN",
-    "latitude": 80.169296,
-    "longitude": 12.990005
+    "latitude": 12.990005,
+    "longitude": 80.169296
   },
   "CNX": {
     "city": "Chiang Mai",
     "country": "Thailand",
     "countryCode": "TH",
-    "latitude": 98.962600708,
-    "longitude": 18.766799926799997
+    "latitude": 18.766799926799997,
+    "longitude": 98.962600708
   },
   "CGP": {
     "city": "Chittagong",
@@ -1690,92 +1690,92 @@
     "city": "Colombo",
     "country": "Sri Lanka",
     "countryCode": "LK",
-    "latitude": 79.88410186767578,
-    "longitude": 7.180759906768799
+    "latitude": 7.180759906768799,
+    "longitude": 79.88410186767578
   },
   "DAD": {
     "city": "Da Nang",
     "country": "Viet Nam",
     "countryCode": "VN",
-    "latitude": 108.198997,
-    "longitude": 16.0439
+    "latitude": 16.0439,
+    "longitude": 108.198997
   },
   "DPS": {
     "city": "Denpasar",
     "country": "Indonesia",
     "countryCode": "ID",
-    "latitude": 115.167,
-    "longitude": -8.74817
+    "latitude": -8.74817,
+    "longitude": 115.167
   },
   "DAC": {
     "city": "Dhaka",
     "country": "Bangladesh",
     "countryCode": "BD",
-    "latitude": 90.397783,
-    "longitude": 23.843347
+    "latitude": 23.843347,
+    "longitude": 90.397783
   },
   "FUK": {
     "city": "Fukuoka",
     "country": "Japan",
     "countryCode": "JP",
-    "latitude": 130.4510040283203,
-    "longitude": 33.585899353027344
+    "latitude": 33.585899353027344,
+    "longitude": 130.4510040283203
   },
   "HAN": {
     "city": "Hanoi",
     "country": "Viet Nam",
     "countryCode": "VN",
-    "latitude": 105.806999,
-    "longitude": 21.221201
+    "latitude": 21.221201,
+    "longitude": 105.806999
   },
   "SGN": {
     "city": "Ho Chi Minh City",
     "country": "Viet Nam",
     "countryCode": "VN",
-    "latitude": 106.652,
-    "longitude": 10.8188
+    "latitude": 10.8188,
+    "longitude": 106.652
   },
   "HKG": {
     "city": "Hong Kong",
     "country": "Hong Kong",
     "countryCode": "HK",
-    "latitude": 113.915001,
-    "longitude": 22.308901
+    "latitude": 22.308901,
+    "longitude": 113.915001
   },
   "HYD": {
     "city": "Hyderabad",
     "country": "India",
     "countryCode": "IN",
-    "latitude": 78.429855,
-    "longitude": 17.231318
+    "latitude": 17.231318,
+    "longitude": 78.429855
   },
   "ISB": {
     "city": "Islamabad",
     "country": "Pakistan",
     "countryCode": "PK",
-    "latitude": 72.82566,
-    "longitude": 33.549
+    "latitude": 33.549,
+    "longitude": 72.82566
   },
   "CGK": {
     "city": "Jakarta",
     "country": "Indonesia",
     "countryCode": "ID",
-    "latitude": 106.65599823,
-    "longitude": -6.1255698204
+    "latitude": -6.1255698204,
+    "longitude": 106.65599823
   },
   "JHB": {
     "city": "Johor Bahru",
     "country": "Malaysia",
     "countryCode": "MY",
-    "latitude": 103.669998,
-    "longitude": 1.64131
+    "latitude": 1.64131,
+    "longitude": 103.669998
   },
   "CNN": {
     "city": "Kannur",
     "country": "India",
     "countryCode": "IN",
-    "latitude": 75.547211,
-    "longitude": 11.918614
+    "latitude": 11.918614,
+    "longitude": 75.547211
   },
   "KNU": {
     "city": "Kanpur",
@@ -1788,64 +1788,64 @@
     "city": "Kaohsiung City",
     "country": "Taiwan, Province of China",
     "countryCode": "TW",
-    "latitude": 120.349998,
-    "longitude": 22.577101
+    "latitude": 22.577101,
+    "longitude": 120.349998
   },
   "KHI": {
     "city": "Karachi",
     "country": "Pakistan",
     "countryCode": "PK",
-    "latitude": 67.160797,
-    "longitude": 24.9065
+    "latitude": 24.9065,
+    "longitude": 67.160797
   },
   "KTM": {
     "city": "Kathmandu",
     "country": "Nepal",
     "countryCode": "NP",
-    "latitude": 85.3591,
-    "longitude": 27.6966
+    "latitude": 27.6966,
+    "longitude": 85.3591
   },
   "COK": {
     "city": "Kochi",
     "country": "India",
     "countryCode": "IN",
-    "latitude": 76.401901,
-    "longitude": 10.152
+    "latitude": 10.152,
+    "longitude": 76.401901
   },
   "CCU": {
     "city": "Kolkata",
     "country": "India",
     "countryCode": "IN",
-    "latitude": 88.44670104980469,
-    "longitude": 22.654699325561523
+    "latitude": 22.654699325561523,
+    "longitude": 88.44670104980469
   },
   "KUL": {
     "city": "Kuala Lumpur",
     "country": "Malaysia",
     "countryCode": "MY",
-    "latitude": 101.709999,
-    "longitude": 2.74558
+    "latitude": 2.74558,
+    "longitude": 101.709999
   },
   "KCH": {
     "city": "Kuching",
     "country": "Malaysia",
     "countryCode": "MY",
-    "latitude": 110.352859,
-    "longitude": 1.487364
+    "latitude": 1.487364,
+    "longitude": 110.352859
   },
   "LHE": {
     "city": "Lahore",
     "country": "Pakistan",
     "countryCode": "PK",
-    "latitude": 74.403603,
-    "longitude": 31.521601
+    "latitude": 31.521601,
+    "longitude": 74.403603
   },
   "MFM": {
     "city": "Macau",
     "country": "Macao",
     "countryCode": "MO",
-    "latitude": 113.592003,
-    "longitude": 22.149599
+    "latitude": 22.149599,
+    "longitude": 113.592003
   },
   "MLE": {
     "city": "Male",
@@ -1865,36 +1865,36 @@
     "city": "Mumbai",
     "country": "India",
     "countryCode": "IN",
-    "latitude": 72.8678970337,
-    "longitude": 19.0886993408
+    "latitude": 19.0886993408,
+    "longitude": 72.8678970337
   },
   "NAG": {
     "city": "Nagpur",
     "country": "India",
     "countryCode": "IN",
-    "latitude": 79.047203,
-    "longitude": 21.092199
+    "latitude": 21.092199,
+    "longitude": 79.047203
   },
   "OKA": {
     "city": "Naha",
     "country": "Japan",
     "countryCode": "JP",
-    "latitude": 127.646004,
-    "longitude": 26.195801
+    "latitude": 26.195801,
+    "longitude": 127.646004
   },
   "DEL": {
     "city": "New Delhi",
     "country": "India",
     "countryCode": "IN",
-    "latitude": 77.09519,
-    "longitude": 28.55563
+    "latitude": 28.55563,
+    "longitude": 77.09519
   },
   "KIX": {
     "city": "Osaka",
     "country": "Japan",
     "countryCode": "JP",
-    "latitude": 135.244003,
-    "longitude": 34.427299
+    "latitude": 34.427299,
+    "longitude": 135.244003
   },
   "PAT": {
     "city": "Patna",
@@ -1907,36 +1907,36 @@
     "city": "Phnom Penh",
     "country": "Cambodia",
     "countryCode": "KH",
-    "latitude": 104.844002,
-    "longitude": 11.5466
+    "latitude": 11.5466,
+    "longitude": 104.844002
   },
   "ICN": {
     "city": "Seoul",
     "country": "Korea, Republic of",
     "countryCode": "KR",
-    "latitude": 126.45099639892578,
-    "longitude": 37.46910095214844
+    "latitude": 37.46910095214844,
+    "longitude": 126.45099639892578
   },
   "SIN": {
     "city": "Singapore",
     "country": "Singapore",
     "countryCode": "SG",
-    "latitude": 103.994003,
-    "longitude": 1.35019
+    "latitude": 1.35019,
+    "longitude": 103.994003
   },
   "URT": {
     "city": "Surat Thani",
     "country": "Thailand",
     "countryCode": "TH",
-    "latitude": 99.135597229,
-    "longitude": 9.13259983063
+    "latitude": 9.13259983063,
+    "longitude": 99.135597229
   },
   "TSA": {
     "city": "Taipei",
     "country": "Taiwan, Province of China",
     "countryCode": "TW",
-    "latitude": 121.552001953125,
-    "longitude": 25.069400787353516
+    "latitude": 25.069400787353516,
+    "longitude": 121.552001953125
   },
   "CRK": {
     "city": "Tarlac City",
@@ -1949,8 +1949,8 @@
     "city": "Tbilisi",
     "country": "Georgia",
     "countryCode": "GE",
-    "latitude": 44.95470047,
-    "longitude": 41.6692008972
+    "latitude": 41.6692008972,
+    "longitude": 44.95470047
   },
   "PBH": {
     "city": "Thimphu",
@@ -1970,29 +1970,29 @@
     "city": "Ulaanbaatar",
     "country": "Mongolia",
     "countryCode": "MN",
-    "latitude": 106.819833,
-    "longitude": 47.646916
+    "latitude": 47.646916,
+    "longitude": 106.819833
   },
   "VTE": {
     "city": "Vientiane",
     "country": "Lao People's Democratic Republic",
     "countryCode": "LA",
-    "latitude": 102.56300354,
-    "longitude": 17.988300323500003
+    "latitude": 17.988300323500003,
+    "longitude": 102.56300354
   },
   "EVN": {
     "city": "Yerevan",
     "country": "Armenia",
     "countryCode": "AM",
-    "latitude": 44.3959007263,
-    "longitude": 40.1473007202
+    "latitude": 40.1473007202,
+    "longitude": 44.3959007263
   },
   "YIA": {
     "city": "Yogyakarta",
     "country": "Indonesia",
     "countryCode": "ID",
-    "latitude": 110.057264,
-    "longitude": -7.905338
+    "latitude": -7.905338,
+    "longitude": 110.057264
   },
   "IQN": {
     "city": "Baoji",
@@ -2005,57 +2005,57 @@
     "city": "Beihai",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 109.293999,
-    "longitude": 21.5394
+    "latitude": 21.5394,
+    "longitude": 109.293999
   },
   "PEK": {
     "city": "Beijing",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 116.58499908447266,
-    "longitude": 40.080101013183594
+    "latitude": 40.080101013183594,
+    "longitude": 116.58499908447266
   },
   "CGD": {
     "city": "Changde",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 111.639999,
-    "longitude": 28.9189
+    "latitude": 28.9189,
+    "longitude": 111.639999
   },
   "CSX": {
     "city": "Changsha",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 113.220001,
-    "longitude": 28.189199
+    "latitude": 28.189199,
+    "longitude": 113.220001
   },
   "CZX": {
     "city": "Changzhou",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 119.778999,
-    "longitude": 31.919701
+    "latitude": 31.919701,
+    "longitude": 119.778999
   },
   "TFU": {
     "city": "Chengdu",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 104.441284,
-    "longitude": 30.31252
+    "latitude": 30.31252,
+    "longitude": 104.441284
   },
   "HAK": {
     "city": "Haikou",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 110.459,
-    "longitude": 19.9349
+    "latitude": 19.9349,
+    "longitude": 110.459
   },
   "CKG": {
     "city": "Chongqing",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 106.651895,
-    "longitude": 29.712254
+    "latitude": 29.712254,
+    "longitude": 106.651895
   },
   "DLC": {
     "city": "Dalian",
@@ -2068,36 +2068,36 @@
     "city": "Foshan",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 113.07,
-    "longitude": 23.0833
+    "latitude": 23.0833,
+    "longitude": 113.07
   },
   "FOC": {
     "city": "Fuzhou",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 119.66318,
-    "longitude": 25.934669
+    "latitude": 25.934669,
+    "longitude": 119.66318
   },
   "CAN": {
     "city": "Guangzhou",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 113.299004,
-    "longitude": 23.392401
+    "latitude": 23.392401,
+    "longitude": 113.299004
   },
   "KWE": {
     "city": "Guiyang",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 106.803331,
-    "longitude": 26.541466
+    "latitude": 26.541466,
+    "longitude": 106.803331
   },
   "SJW": {
     "city": "Shijiazhuang",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 114.696999,
-    "longitude": 38.280701
+    "latitude": 38.280701,
+    "longitude": 114.696999
   },
   "HGH": {
     "city": "Shaoxing",
@@ -2117,8 +2117,8 @@
     "city": "Kunming",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 102.936743,
-    "longitude": 25.110313
+    "latitude": 25.110313,
+    "longitude": 102.936743
   },
   "NAY": {
     "city": "Langfang",
@@ -2131,29 +2131,29 @@
     "city": "Nanchang",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 115.90271,
-    "longitude": 28.864815
+    "latitude": 28.864815,
+    "longitude": 115.90271
   },
   "NNG": {
     "city": "Nanning",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 108.171997,
-    "longitude": 22.608299
+    "latitude": 22.608299,
+    "longitude": 108.171997
   },
   "TAO": {
     "city": "Qingdao",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 120.088171,
-    "longitude": 36.361953
+    "latitude": 36.361953,
+    "longitude": 120.088171
   },
   "PVG": {
     "city": "Shanghai",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 121.805,
-    "longitude": 31.1434
+    "latitude": 31.1434,
+    "longitude": 121.805
   },
   "SZX": {
     "city": "Zhongshan",
@@ -2173,22 +2173,22 @@
     "city": "Tongren",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 109.308889,
-    "longitude": 27.883333
+    "latitude": 27.883333,
+    "longitude": 109.308889
   },
   "XFN": {
     "city": "Xiangyang",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 112.291666,
-    "longitude": 32.152222
+    "latitude": 32.152222,
+    "longitude": 112.291666
   },
   "XNN": {
     "city": "Xining",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 102.040157,
-    "longitude": 36.528295
+    "latitude": 36.528295,
+    "longitude": 102.040157
   },
   "TYN": {
     "city": "Yangquan",
@@ -2201,43 +2201,43 @@
     "city": "Zhengzhou",
     "country": "China",
     "countryCode": "CN",
-    "latitude": 113.849165,
-    "longitude": 34.526497
+    "latitude": 34.526497,
+    "longitude": 113.849165
   },
   "ADL": {
     "city": "Adelaide",
     "country": "Australia",
     "countryCode": "AU",
-    "latitude": 138.533393,
-    "longitude": -34.947512
+    "latitude": -34.947512,
+    "longitude": 138.533393
   },
   "AKL": {
     "city": "Auckland",
     "country": "New Zealand",
     "countryCode": "NZ",
-    "latitude": 174.786331,
-    "longitude": -37.01199
+    "latitude": -37.01199,
+    "longitude": 174.786331
   },
   "BNE": {
     "city": "Brisbane",
     "country": "Australia",
     "countryCode": "AU",
-    "latitude": 153.11700439453125,
-    "longitude": -27.384199142456055
+    "latitude": -27.384199142456055,
+    "longitude": 153.11700439453125
   },
   "CBR": {
     "city": "Canberra",
     "country": "Australia",
     "countryCode": "AU",
-    "latitude": 149.195007,
-    "longitude": -35.3069
+    "latitude": -35.3069,
+    "longitude": 149.195007
   },
   "CHC": {
     "city": "Christchurch",
     "country": "New Zealand",
     "countryCode": "NZ",
-    "latitude": 172.53199768066406,
-    "longitude": -43.48939895629883
+    "latitude": -43.48939895629883,
+    "longitude": 172.53199768066406
   },
   "GUM": {
     "city": "Hagatna",
@@ -2250,15 +2250,15 @@
     "city": "Hobart",
     "country": "Australia",
     "countryCode": "AU",
-    "latitude": 147.509994507,
-    "longitude": -42.836101532
+    "latitude": -42.836101532,
+    "longitude": 147.509994507
   },
   "MEL": {
     "city": "Melbourne",
     "country": "Australia",
     "countryCode": "AU",
-    "latitude": 144.843002,
-    "longitude": -37.673302
+    "latitude": -37.673302,
+    "longitude": 144.843002
   },
   "NOU": {
     "city": "Noumea",
@@ -2271,8 +2271,8 @@
     "city": "Perth",
     "country": "Australia",
     "countryCode": "AU",
-    "latitude": 115.96700286865234,
-    "longitude": -31.94029998779297
+    "latitude": -31.94029998779297,
+    "longitude": 115.96700286865234
   },
   "SUV": {
     "city": "Suva",
@@ -2285,8 +2285,8 @@
     "city": "Sydney",
     "country": "Australia",
     "countryCode": "AU",
-    "latitude": 151.177001953125,
-    "longitude": -33.94609832763672
+    "latitude": -33.94609832763672,
+    "longitude": 151.177001953125
   },
   "PPT": {
     "city": "Tahiti",

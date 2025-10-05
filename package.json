@@ -1,17 +1,23 @@
 {
   "name": "cloudflare-edge-locations",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "List of cloudflare.com edge locations",
   "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "type": "module",
   "exports": {
-    ".": "./dist/index.js"
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
   },
   "scripts": {
     "test": "mocha --require ts-node/register test/tests.ts",
     "install-duckdb": "./scripts/install-duckdb.sh",
     "download": "rm -rf temp/ && mkdir -p temp && duckdb < scripts/load-airports.sql",
-    "generate": "mkdir -p data && ts-node --transpile-only generate.ts",
+    "generate": "mkdir -p data && tsx generate.ts",
     "bundle": "rm -rf dist/ src/data/ && mkdir -p src/data && cp data/*.json src/data && tsc --build src/ && rm -f dist/tsconfig.tsbuildinfo dist/tsconfig.json",
     "build": "npm run download && npm run generate && npm run bundle",
     "prepack": "npm run bundle"
@@ -43,16 +49,15 @@
   },
   "homepage": "https://github.com/tobilg/cloudflare-edge-locations#readme",
   "devDependencies": {
-    "@types/chai": "^4.3.11",
-    "@types/mocha": "^10.0.6",
+    "@types/chai": "^5.2.2",
+    "@types/mocha": "^10.0.10",
     "@types/node": "^20.7.0",
     "@types/utf8": "^3.0.3",
-    "chai": "^5.1.1",
-    "mocha": "^10.7.3",
-    "puppeteer": "^23.5.2",
-    "ts-node": "^10.9.1",
-    "tsx": "^4.19.2",
-    "typescript": "^5.6.3",
+    "chai": "^6.2.0",
+    "mocha": "^11.7.4",
+    "puppeteer": "^24.23.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
     "utf8": "^3.0.0"
   }
 }

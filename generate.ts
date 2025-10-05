@@ -1,9 +1,13 @@
 import puppeteer from 'puppeteer';
 import { readFileSync, writeFileSync } from 'fs';
-import { join } from 'path';
+import { join, dirname } from 'path';
 import { EOL } from 'os';
-import * as utf8 from 'utf8';
-import { airportOverridesData } from './lib/airportOverrides';
+import { fileURLToPath } from 'url';
+import utf8 from 'utf8';
+import { airportOverridesData } from './lib/airportOverrides.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Load large airport data
 const largeAirportData: LargeCityData[] = JSON.parse(readFileSync(join(__dirname, 'temp', 'large-airports.json'), 'utf8'));
@@ -178,50 +182,58 @@ const run = async (): Promise<void> => {
     throw new Error(`Failed with response code ${response.status()}`)
   }
 
-  const data = await page.evaluate(() => {
-    const cities = [];
-    const rawCities = document.evaluate('//*[starts-with(@id,"accordion__panel-regionlist-id-")]/div/div[*]/div', document);
+  console.log('Starting page evaluation...');
   
-    // First iterator
-    let citiesIterator = rawCities.iterateNext();
+  const data = await page.evaluate(`
+    (function() {
+      const cities = [];
+      const rawCities = document.evaluate('//*[starts-with(@id,"accordion__panel-regionlist-id-")]/div/div[*]/div', document);
+    
+      // First iterator
+      let citiesIterator = rawCities.iterateNext();
 
-    // Iterate over entries
-    while (citiesIterator) {
-      cities.push(citiesIterator.textContent || ''); 
-      citiesIterator = rawCities.iterateNext();
-    }
+      // Iterate over entries
+      while (citiesIterator) {
+        cities.push(citiesIterator.textContent || ''); 
+        citiesIterator = rawCities.iterateNext();
+      }
 
-    // Function to normalize accented characters to their plain representations
-    const normalizeAccents = (str) => {
-      return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-    };
+      // Function to normalize accented characters to their plain representations
+      function normalizeAccents(str) {
+        return str.normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');
+      }
 
-    const cleanedCities = cities.map((city) => {
-      const temp = city.split(', ');
-      const originalName = temp.length === 2 ? temp[0] : temp[0];
-      let cleanedName = originalName;
-      
-      // Normalize accented characters first
-      cleanedName = normalizeAccents(cleanedName);
-      
-      // Remove asterisks from city names
-      cleanedName = cleanedName.replace(/\*/g, '');
-      
-      // Apply specific city name corrections
-      cleanedName = cleanedName.replace('Frankfurt', 'Frankfurt am Main');
-      cleanedName = cleanedName.replace('Luxembourg City', 'Luxembourg');
-      cleanedName = cleanedName.replace('Ekaterinburg', 'Yekaterinburg');
-      cleanedName = cleanedName.replace('Bhubaneshwar', 'Bhubaneswar');
-      cleanedName = cleanedName.replace('Basra', 'Basrah');
-      
-      return {
-        cleanedName: cleanedName,
-        originalName: originalName
-      };
-    });
+      const cleanedCities = [];
+      for (let i = 0; i < cities.length; i++) {
+        const city = cities[i];
+        const temp = city.split(', ');
+        const originalName = temp.length === 2 ? temp[0] : temp[0];
+        let cleanedName = originalName;
+        
+        // Normalize accented characters first
+        cleanedName = normalizeAccents(cleanedName);
+        
+        // Remove asterisks from city names
+        cleanedName = cleanedName.replace(/\\*/g, '');
+        
+        // Apply specific city name corrections
+        cleanedName = cleanedName.replace('Frankfurt', 'Frankfurt am Main');
+        cleanedName = cleanedName.replace('Luxembourg City', 'Luxembourg');
+        cleanedName = cleanedName.replace('Ekaterinburg', 'Yekaterinburg');
+        cleanedName = cleanedName.replace('Bhubaneshwar', 'Bhubaneswar');
+        cleanedName = cleanedName.replace('Basra', 'Basrah');
+        
+        cleanedCities.push({
+          cleanedName: cleanedName,
+          originalName: originalName
+        });
+      }
 
-    return cleanedCities;
-  });
+      return cleanedCities;
+    })()
+  `);
+  
+  console.log('Page evaluation completed, got', data.length, 'cities');
 
   await page.close();
   await browser.close();
@@ -243,8 +255,8 @@ const run = async (): Promise<void> => {
       location.countryCode = airport.iso_country;
       location.country = lookupCountry(airport.iso_country);
       const coordinate = airport.coordinates.split(', ');
-      location.latitude = parseFloat(coordinate[1]);
-      location.longitude = parseFloat(coordinate[0]);
+      location.latitude = parseFloat(coordinate[0]);
+      location.longitude = parseFloat(coordinate[1]);
     } else {
       // Run a second pass with all airports if not found before. Increases data quality
       const smallAirport = lookupAirport(utf8.encode(location.city), cityData.originalName, allAirportData);
@@ -253,16 +265,14 @@ const run = async (): Promise<void> => {
         location.countryCode = smallAirport.iso_country;
         location.country = lookupCountry(smallAirport.iso_country);
         const coordinate = smallAirport.coordinates.split(', ');
-        location.latitude = parseFloat(coordinate[1]);
-        location.longitude = parseFloat(coordinate[0]);
+        location.latitude = parseFloat(coordinate[0]);
+        location.longitude = parseFloat(coordinate[1]);
       }
     }
     return location;
   });
 
   writeJSON(withAirports);
-
-  invalidCounter = 1;
 
   writeCSV(withAirports);
 }

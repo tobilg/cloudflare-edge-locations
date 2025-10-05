@@ -1,4 +1,4 @@
-import edgeLocations from "./data/cloudflare-edge-locations.json";
+import edgeLocations from "./data/cloudflare-edge-locations.json" with { type: "json" };
 
 export interface EdgeLocation {
   code?:         string;
